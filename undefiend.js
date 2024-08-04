@@ -4,7 +4,7 @@
 
 1.variable that is not initialized
 2.function with no return
-
+3. parameter that is not passes will be undefiened 
 
 */ 
 
@@ -16,3 +16,10 @@ function second(a, b){
 }
 const result = second()
 console.log(result)
+
+function third(a, b, c, d){
+    const total = a + b + c + d
+    console.log(a,b,c,d)
+}
+
+third(2,5)
