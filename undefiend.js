@@ -61,3 +61,5 @@ console.log(seven)
 
 
 
+const eigth = undefined
+console.log(eigth)
