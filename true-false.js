@@ -94,3 +94,14 @@ if(x62){
 else{
     console.log('value of x62 is falsy')
 }
+ 
+
+const x71 = null;
+if(!x71){
+    console.log('value of x71 is falsy')
+}
+const x72 = ''
+if(!!x72){
+    console.log('value of x72 is truthy')
+}
+ 
