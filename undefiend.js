@@ -38,3 +38,8 @@ function noNegative(a, b){
 }
 const total = noNegative(2, -6)
 console.log(total)
+
+
+
+const fifth = {id:2, name:'ponchom', age:30}
+console.log(fifth.salary)
